@@ -335,6 +335,9 @@ body.dark-theme .professional-skills {
     padding-left: 0;
   }
 }
+.navigation a[href="index.html"] {
+  color: var(--accent-color);
+}
 
 @media (min-width: 992px) {
   .skills .content {
@@ -366,6 +369,10 @@ body.dark-theme .professional-skills {
     grid-column: 2;
     grid-row: 3;
   }
+}
+
+.navigation a[href="index.html"] {
+  color: var(--accent-color);
 }
 
 /* Certificates Section */
